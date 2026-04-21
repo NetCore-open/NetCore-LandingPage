@@ -82,3 +82,7 @@ ul { list-style: none; }
 .log-item.active { color: var(--accent); font-weight: bold; border-bottom: none; }
 .log-item span { margin-right: 1rem; opacity: 0.7; }
 @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+.about-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.about-text h2 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+.about-text p { color: var(--gray-text); font-size: 1.1rem; margin-bottom: 1rem; }
+.about-image img { width: 100%; border-radius: var(--radius); }
