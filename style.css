@@ -38,3 +38,10 @@ ul { list-style: none; }
 .section-header { text-align: center; max-width: 600px; margin: 0 auto 60px auto; }
 .section-header h2 { font-size: 2.5rem; margin-bottom: 1rem; line-height: 1.2; }
 .section-header p { color: var(--gray-text); font-size: 1.1rem; }
+.navbar { position: fixed; top: 0; width: 100%; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); z-index: 1000; height: 80px; display: flex; align-items: center; }
+.nav-container { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: 800; color: var(--dark); }
+.nav-links { display: flex; gap: 2rem; }
+.nav-links a { font-weight: 500; color: var(--gray-text); transition: var(--transition); }
+.nav-links a:hover { color: var(--primary); }
+.nav-auth { display: flex; align-items: center; gap: 1rem; }
