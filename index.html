@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CleanWave - Plataforma SaaS para Lavanderías</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>CleanWave - Plataforma Logística para Lavanderías</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">🌊 CleanWave</a>
+            <a href="#" class="logo"><img src="assets/Logo.png" alt="" width="100"> CleanWave</a>
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Qué ofrecemos</a></li>
@@ -24,22 +24,35 @@
             </div>
         </div>
     </nav>
+
     <header id="inicio" class="hero">
         <div class="container hero-content">
-            <p class="hero-label badge">Plataforma SaaS enfocada en digitalizar</p>
+            <p class="hero-label">Plataforma de gestión inteligente</p>
             <h1>Impulsa tu lavandería.<br><span>Digitaliza. Optimiza. Crece.</span></h1>
-            <p class="hero-desc">CleanWave conecta dueños de lavanderías locales con logística automatizada y clientes satisfechos. Gestiona tus pedidos, optimiza rutas y haz crecer tu negocio.</p>
+            <p class="hero-desc">CleanWave conecta dueños de lavanderías con logística automatizada y clientes satisfechos. Gestiona tus pedidos, optimiza rutas y haz crecer tu negocio.</p>
+            
             <div class="hero-actions">
                 <a href="#" class="btn btn-primary btn-lg">Comenzar gratis</a>
                 <a href="#" class="btn btn-outline btn-lg">Ver demo</a>
             </div>
+
             <div class="hero-stats">
-                <div class="stat-item"><h3>1.2K+</h3><p>Lavanderías activas</p></div>
-                <div class="stat-item"><h3>340+</h3><p>Rutas diarias optimizadas</p></div>
-                <div class="stat-item"><h3>S/.2M</h3><p>Ahorro logístico total</p></div>
+                <div class="stat-item">
+                    <h3>1.2K+</h3>
+                    <p>Lavanderías activas</p>
+                </div>
+                <div class="stat-item">
+                    <h3>340+</h3>
+                    <p>Rutas diarias optimizadas</p>
+                </div>
+                <div class="stat-item">
+                    <h3>S/.2M</h3>
+                    <p>Ahorro logístico total</p>
+                </div>
             </div>
         </div>
     </header>
+
     <section id="servicios" class="section bg-light">
         <div class="container">
             <div class="section-header">
@@ -47,6 +60,7 @@
                 <h2>Todo lo que necesitas para tu operación</h2>
                 <p>Desde la recepción de la prenda hasta la entrega en puerta, CleanWave es tu plataforma todo en uno.</p>
             </div>
+
             <div class="services-grid">
                 <div class="service-card">
                     <h3>Conecta tus Pedidos</h3>
@@ -55,79 +69,175 @@
                 </div>
                 <div class="service-card">
                     <h3>Forma tu Flota</h3>
-                    <p>Asigna repartidores y utiliza nuestra IA para trazar la ruta de entrega más eficiente.</p>
+                    <p>Asigna repartidores y utiliza nuestra IA para trazar la ruta de entrega más eficiente, ahorrando tiempo y combustible.</p>
                     <a href="#" class="link-arrow">Ver logística →</a>
                 </div>
                 <div class="service-card">
                     <h3>Planes Escalables</h3>
-                    <p>Empieza gratis y escala cuando tu volumen de pedidos aumente. Acceso completo a métricas.</p>
+                    <p>Empieza gratis y escala cuando tu volumen de pedidos aumente. Acceso completo a métricas avanzadas y soporte.</p>
                     <a href="#" class="link-arrow">Ver planes →</a>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="roles" class="section">
         <div class="container">
             <div class="section-header">
                 <span class="badge">¿Para quién es CleanWave?</span>
                 <h2>Elige tu rol en la plataforma</h2>
+                <p>Nuestra tecnología está diseñada para conectar dos perfiles esenciales. Descubre cómo se adapta a ti.</p>
             </div>
+
             <div class="roles-grid">
                 <a href="#" class="role-card">
                     <div class="role-content">
                         <h3>Gestor de Lavandería</h3>
-                        <p>Digitaliza tus tickets, controla tu inventario y gestiona repartidores desde tu panel de administrador.</p>
+                        <p>Digitaliza tus tickets, controla tu inventario de prendas y gestiona tus repartidores.</p>
                     </div>
                     <span class="arrow">→</span>
                 </a>
                 <a href="#" class="role-card">
                     <div class="role-content">
                         <h3>Cliente Final</h3>
-                        <p>Pide el recojo de tu ropa y sigue el estado de lavado desde tu celular con facilidad.</p>
+                        <p>Pide el recojo de tu ropa sucia con un clic y sigue el estado de lavado desde tu celular.</p>
                     </div>
                     <span class="arrow">→</span>
                 </a>
             </div>
         </div>
     </section>
+
     <section id="live" class="section bg-dark text-white">
-        <div class="container live-layout">
-            <div class="live-text">
-                <span class="badge badge-light">Nuevo feature</span>
-                <h2>Logística IA en tiempo real</h2>
-                <p>Conecta a tus repartidores y transmite su ubicación en vivo a tus clientes. Mejora la transparencia de tu servicio.</p>
-                <ul class="live-features">
-                    <li>✅ Monitoreo de furgonetas en vivo</li>
-                    <li>✅ Recálculo automático de rutas</li>
-                </ul>
-            </div>
-            <div class="live-dashboard">
-                <div class="dashboard-header">
-                    <span>Panel Logístico — Van 01</span><span class="live-indicator">LIVE</span>
+        <div class="container">
+            <div class="live-layout">
+                <div class="live-text">
+                    <span class="badge badge-light">Nuevo feature</span>
+                    <h2>Logística IA en tiempo real</h2>
+                    <p>Conecta a tus repartidores a CleanWave y transmite su ubicación en vivo. Genera confianza enviando a tus clientes el tracking exacto de su ropa limpia.</p>
+                    <ul class="live-features">
+                        <li>✅ Monitoreo de furgonetas en vivo</li>
+                        <li>✅ Recálculo automático de rutas por tráfico</li>
+                        <li>✅ Estimación de llegada (ETA) precisa</li>
+                    </ul>
                 </div>
-                <div class="dashboard-stats">
-                    <div class="d-stat"><span class="label">Entregas Hoy</span><span class="value">18 / 25</span><span class="trend up">↑ A tiempo</span></div>
-                    <div class="d-stat"><span class="label">Eficiencia</span><span class="value">94%</span><span class="trend up">↑ +2.1%</span></div>
-                </div>
-                <div class="dashboard-log">
-                    <div class="log-item"><span>10:15</span> En tránsito hacia Planta Central</div>
-                    <div class="log-item active"><span>10:22</span> Descargando prendas...</div>
+                
+                <div class="live-dashboard">
+                    <div class="dashboard-header">
+                        <span>Panel Logístico — CleanWave Van 01</span>
+                        <span class="live-indicator">LIVE</span>
+                    </div>
+                    <div class="dashboard-stats">
+                        <div class="d-stat">
+                            <span class="label">Entregas Hoy</span>
+                            <span class="value">18 / 25</span>
+                            <span class="trend up">↑ A tiempo</span>
+                        </div>
+                        <div class="d-stat">
+                            <span class="label">Eficiencia de Ruta</span>
+                            <span class="value">94%</span>
+                            <span class="trend up">↑ +2.1%</span>
+                        </div>
+                        <div class="d-stat">
+                            <span class="label">Próxima Parada</span>
+                            <span class="value">12 min</span>
+                            <span class="trend neutral">→ Estable</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-log">
+                        <div class="log-item"><span>10:00</span> Recojo completado - Cliente A</div>
+                        <div class="log-item"><span>10:15</span> En tránsito hacia Planta Central</div>
+                        <div class="log-item active"><span>10:22</span> Descargando prendas...</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
     <section id="nosotros" class="section">
         <div class="container about-layout">
             <div class="about-text">
                 <span class="badge">Nosotros</span>
                 <h2>Somos CleanWave Labs</h2>
-                <p>Nacimos con la misión de transformar cómo los negocios tradicionales gestionan sus operaciones en el día a día.</p>
-                <p>Fundado en Lima, Perú, por estudiantes de 6to ciclo de Ingeniería de Software, construimos tecnología real para problemas reales, facilitando la vida tanto a los dueños de negocios como a los usuarios finales.</p>
+                <p>Nacimos con la misión de transformar cómo los negocios tradicionales gestionan sus operaciones en el día a día. Creemos que la innovación debe estar al alcance de todos.</p>
+                <p>Fundado en Lima, Perú, por estudiantes de Ingeniería de Software de 6to ciclo, construimos tecnología real para problemas reales, facilitando la vida tanto a los dueños de negocios como a los usuarios finales.</p>
             </div>
             <div class="about-image">
                 <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=600" alt="Equipo CleanWave">
             </div>
         </div>
     </section>
+
+    <section id="planes" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Precios</span>
+                <h2>Simple. Transparente.</h2>
+                <p>Empieza gratis y actualiza cuando tu lavandería lo necesite.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Plan Gratuito</h3>
+                    <div class="price">S/. 0 <span>/ siempre</span></div>
+                    <div class="plan-details">
+                        <h4>Para Lavanderías</h4>
+                        <ul>
+                            <li>Hasta 50 pedidos al mes</li>
+                            <li>Gestión básica de tickets</li>
+                        </ul>
+                        <h4>Para Clientes</h4>
+                        <ul>
+                            <li>App móvil gratuita</li>
+                            <li>Historial de pedidos</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-outline w-100">Comenzar gratis</a>
+                </div>
+
+                <div class="price-card popular">
+                    <div class="popular-badge">✦ Recomendado</div>
+                    <h3>Plan Premium</h3>
+                    <div class="price">S/. 89 <span>/ mes</span></div>
+                    <div class="plan-details">
+                        <h4>Para Lavanderías</h4>
+                        <ul>
+                            <li>Pedidos ilimitados</li>
+                            <li>Rutas optimizadas con IA</li>
+                            <li>Notificaciones automáticas</li>
+                        </ul>
+                        <h4>Para Clientes</h4>
+                        <ul>
+                            <li>Tracking en vivo</li>
+                            <li>Soporte prioritario</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary w-100">Suscribirme ahora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>🌊 CleanWave</h3>
+                <p>Digitalizando lavanderías, simplificando vidas.</p>
+                <p class="copyright">© 2026 CleanWave Labs. Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Contacto</h4>
+                <a href="mailto:contacto@cleanwave.pe">contacto@cleanwave.pe</a>
+                <a href="#">WhatsApp: +51 999 999 999</a>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="#">Términos y condiciones</a>
+                <a href="#">Política de privacidad</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
