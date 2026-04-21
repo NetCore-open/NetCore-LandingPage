@@ -54,3 +54,9 @@ ul { list-style: none; }
 .hero-stats { display: flex; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 40px; }
 .stat-item h3 { font-size: 2.5rem; color: var(--dark); }
 .stat-item p { color: var(--gray-text); font-weight: 500; }
+.services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.service-card { background: var(--white); padding: 2.5rem; border-radius: var(--radius); border: 1px solid var(--border); transition: var(--transition); }
+.service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+.service-card h3 { margin-bottom: 1rem; font-size: 1.3rem; }
+.service-card p { color: var(--gray-text); margin-bottom: 1.5rem; }
+.link-arrow { color: var(--primary); font-weight: 600; }
