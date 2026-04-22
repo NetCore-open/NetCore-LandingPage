@@ -41,7 +41,8 @@ ul { list-style: none; }
 /* NAVBAR */
 .navbar { position: fixed; top: 0; width: 100%; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); z-index: 1000; height: 80px; display: flex; align-items: center; }
 .nav-container { display: flex; justify-content: space-between; align-items: center; }
-.logo { font-size: 1.5rem; font-weight: 800; color: var(--dark); }
+.logo { display: flex; align-items: center; gap: 0.6rem; font-family: 'Sora', sans-serif; font-size: 1.35rem; font-weight: 700; letter-spacing: -0.02em; color: var(--dark); }
+.logo img { display: block; }
 .nav-links { display: flex; gap: 2rem; }
 .nav-links a { font-weight: 500; color: var(--gray-text); transition: var(--transition); }
 .nav-links a:hover { color: var(--primary); }
