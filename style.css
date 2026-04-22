@@ -39,7 +39,7 @@ ul { list-style: none; }
 .badge-light { color: var(--accent); }
 
 /* NAVBAR */
-.navbar { position: fixed; top: 0; width: 100%; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); z-index: 1000; height: 80px; display: flex; align-items: center; }
+.navbar { position: fixed; top: 0; width: 100%; background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); z-index: 1000; height: 80px; display: flex; align-items: center; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12); }
 .nav-container { display: flex; justify-content: space-between; align-items: center; }
 .logo { display: flex; align-items: center; gap: 0.6rem; font-family: 'Sora', sans-serif; font-size: 1.35rem; font-weight: 700; letter-spacing: -0.02em; color: var(--dark); }
 .logo img { display: block; }
