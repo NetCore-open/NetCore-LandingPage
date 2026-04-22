@@ -27,9 +27,9 @@ ul { list-style: none; }
 /* BOTONES */
 .btn { display: inline-block; padding: 10px 24px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: var(--transition); border: 2px solid transparent; }
 .btn-primary { background: var(--primary); color: var(--white); }
-.btn-primary:hover { background: var(--primary-hover); }
+.btn-primary:hover { background: var(--primary-hover); transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0, 86, 179, 0.25); }
 .btn-outline { border-color: var(--border); color: var(--dark); background: transparent; }
-.btn-outline:hover { border-color: var(--primary); color: var(--primary); }
+.btn-outline:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05); }
 .btn-text { font-weight: 600; color: var(--dark); transition: var(--transition); padding: 10px; }
 .btn-text:hover { color: var(--primary); }
 .btn-lg { padding: 14px 32px; font-size: 1.1rem; }
