@@ -122,8 +122,8 @@ ul { list-style: none; }
 .footer-brand p { color: var(--gray-text); margin-top: 1rem; }
 .copyright { font-size: 0.85rem; margin-top: 2rem !important; }
 .footer-links h4 { margin-bottom: 1rem; }
-.footer-links a { display: block; color: var(--gray-text); margin-bottom: 0.5rem; }
-.footer-links a:hover { color: var(--primary); }
+.footer-links a { display: block; color: var(--gray-text); margin-bottom: 0.5rem; transition: var(--transition); }
+.footer-links a:hover { color: var(--primary); transform: translateX(4px); }
 
 @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
 
